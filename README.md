@@ -1,2 +1,2 @@
 # PHP-Laravel-Course
-![alt](https://cloudonhire.com/wp-content/uploads/2020/01/Laravel_Framework-copy.png)
+![alt](https://dash.ps/wp-content/uploads/2020/08/php-framework-laravel.jpg)
