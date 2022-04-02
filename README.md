@@ -2,59 +2,27 @@
 ![alt](https://dash.ps/wp-content/uploads/2020/08/php-framework-laravel.jpg)
 
 ## Class--01
-<details>
-  <summary> click here </summary>
-    1. Github
-  
-      - What is Git & Github
-  
-      - Why need Git & Github
-  
-      - Git bash Downloads & Installation
-  
-      - Create an Account on Github
-  
-      - Create project Local to Online
-  
-      - Create Project Online
-  
-      - How to fork any github project from another account.
-
-    2. IDE / Code Editor
-      - Vs Code Downloads
-      - Vs Code Editor keyboard shortcuts
-      - Important Package installation
- 
-</details>  
-  
-## Class--02
-<details>
-  <summary> click here </summary>
-      - imran
-      - hasan
-      - bipul
- 
-</details>  
-## Class 01
 
 <details>
 <summary>Click Here</summary>
 
-### What is javaScript
+### 1. Github
 
-- Popular web Programming Language 
+- What is Git & Github
 
-- Scripting language 
+- Why need Git & Github
 
-- Lightweight 
+- Git bash Downloads & Installation
 
-- Cross-platform 
+- Create an Account on Github
 
-- Object-oriented syntax 
+- Create project Local to Online
 
-- Run-on browser 
+- Create Project Online
 
-## 2. IDE / Code Editor
+- How to fork any github project from another account.
+
+### 2. IDE / Code Editor
 
 - Vs Code Downloads
 
