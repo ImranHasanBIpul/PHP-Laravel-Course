@@ -54,5 +54,11 @@
 
 - Run-on browser 
 
+## 2. IDE / Code Editor
 
+- Vs Code Downloads
+
+- Vs Code Editor keyboard shortcuts
+
+- Important Package installation
 </details> 
