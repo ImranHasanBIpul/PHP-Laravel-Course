@@ -193,7 +193,9 @@ Solve this game using Switch case and submit it on github.
 
 <details>
 <summary>Click Here</summary>
+	
 ### Over View:
+	
 Operator: Increment (++) and Decrement (--)
 
 - For Loop
