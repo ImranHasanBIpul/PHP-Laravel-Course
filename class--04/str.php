@@ -21,12 +21,6 @@ echo "</br>";
 echo "</br>";
 
 
-
-
-
-
-
-
 //character Count/ word count.....
 $text = "  Hello, warm Greetings !! This is Imran Ali. I have a team of 5 people. We read your job description in full detail and we found my skills with your project. We Are a Website developer that have rich experience for developing backend and frontend. We build WordPress websites with my skills. We are always ready to do your job honestly. Our first goal is client satisfaction. so We are always attentive to the client's satisfaction. hi i am Imran"  ;
 echo "</br>";
