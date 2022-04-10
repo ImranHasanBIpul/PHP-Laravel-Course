@@ -8,7 +8,7 @@ echo "<h2> Question 01: </h2>";
    echo "<option value='$value'>$month_value</option>";
 }
 echo "<br>";
-echo cal_days_in_month(CAL_GREGORIAN, 4, 2022);
+echo "April Month - " . cal_days_in_month(CAL_GREGORIAN, 4, 2022) . " Days";
 echo "<br>";
 echo "<br>";
 for($i = 0; $i <= 30; ++$i){
@@ -35,9 +35,10 @@ echo "<h2> Question 03: </h2>";
 $num = 7;
 $fact = 1;
 for($i = 1; $i <= $num; $i++){
-    $fact = $fact * $i;
-}
+    $fact = $fact * $i;  
+} 
 echo "Factorial of 7:" ." ".$fact;
+
 echo "<br>";
 echo "<br>";
 

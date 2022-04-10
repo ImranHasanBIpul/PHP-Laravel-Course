@@ -12,6 +12,15 @@ echo "</br>";
 echo "This is imran";
 echo "</br>";
 echo "</br>";
+$num = 7;
+$fact = 1;
+for ($i = 1; $i <= 7; $i++ ){
+    $fact = $fact * $i;
+}
+echo $fact;
+
+
+
 echo "</br>";
 echo "</br>";
 echo "</br>";
