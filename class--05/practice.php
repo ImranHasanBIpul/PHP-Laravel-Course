@@ -1,4 +1,24 @@
 <?php
+$daraz = array(
+    array("T-Shirt", 15, 30),
+    array("Airphone", 25, 35),
+    array("Phone", 55, 39),
+    array("Watch", 45, 20),
+    array("Car", 45, 20)
+);
+
+for($row = 0; $row < 4; $row++){
+    echo "<h4> Row Number $row </h4>";
+    echo "<ul>";
+    for($col = 0; $col < 3; $col++){
+        echo "<li>" . $daraz[$row][$col] . "</li>";
+    }
+    echo "</ul>";
+}
+
+echo "<br>";
+echo "<br>";
+
 $num = [2, 10, 20, 55, 34, 77];
 for($i = 0; $i < 5; $i++){
     $count = 0;

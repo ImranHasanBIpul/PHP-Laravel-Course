@@ -2,8 +2,8 @@
 echo "<h1>Question 01: </h1>";
 //This is index Array
 $num = array(12,34,2,6,78);  
-
-for($i = 0; $i < 5; $i++){
+$length = count($num);
+for($i = 0; $i < $length; $i++){
     $count = 0;
     for($n = 2; $n < $num[$i]; $n++){
         if($num[$i] % $n == 0) {
@@ -23,16 +23,24 @@ echo "<br>";
 
 
 echo "<h1>Question 02: </h1>";
-//This is index Array
-$productName = ["T-Shirt", "Airphone", "Mobile", "Watch", "Bike"];
-echo "<pre>";
-print_r($productName);
-echo "<br>";
-//foreach
-foreach($productName as $key => $valu){
- echo "{$key} - {$valu}";
-    echo "<br>";
+//This is Multi dimontional Array
+$daraz = array(
+    array("T-Shirt", 15, 30),
+    array("Airphone", 25, 35),
+    array("Phone", 55, 39),
+    array("Watch", 45, 20),
+    array("Car", 45, 20)
+);
+
+for($row = 0; $row < 4; $row++){
+    echo "<h4> Row Number $row </h4>";
+    echo "<ul>";
+    for($col = 0; $col < 3; $col++){
+        echo "<li>" . $daraz[$row][$col] . "</li>";
+    }
+    echo "</ul>";
 }
+echo "<br>";
 
 echo "<h1>Question 03: </h1>";
   echo "<br>";	echo "<br>";
