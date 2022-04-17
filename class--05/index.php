@@ -74,6 +74,10 @@ echo "<h1>Question 03: </h1>";
     echo $num[$i];
     echo "<br>";
 }
+<<<<<<< HEAD
 
 
 ?>
+=======
+?>
+>>>>>>> baae58cdb9c995fb2b4c1a5b5fb3a243cd1bf77b
