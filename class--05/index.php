@@ -1,4 +1,12 @@
 <?php
+
+$fruits = array ("apple", "orange", array ("pear", "mango"),  "banana");
+
+Echo count($fruits);
+
+
+
+echo "<br>"; echo "<br>"; echo "<br>";
 echo "<h1>Question 01: </h1>";
 //This is index Array
 $num = array(12,34,2,6,78);  
@@ -66,4 +74,6 @@ echo "<h1>Question 03: </h1>";
     echo $num[$i];
     echo "<br>";
 }
+
+
 ?>
