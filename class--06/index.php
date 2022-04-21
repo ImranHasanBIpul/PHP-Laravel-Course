@@ -2,8 +2,8 @@
 echo "<h2> Question 01: </h2>";
 $purchased_products = array(
     array('name' => 'banana',  'qty' => 10, 'total_price' => 550),
-    array('name' => 'apple',     'qty' => 50,  'total_price' => 1500),
-    array('name' => 'orange',  'qty' => 7,    'total_price' => 600),
+    array('name' => 'apple',   'qty' => 50, 'total_price' => 1500),
+    array('name' => 'orange',  'qty' => 7,  'total_price' => 600),
 );
 $x = 0;
 foreach ($purchased_products as $key => $value){

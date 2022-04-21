@@ -1,5 +1,13 @@
 <?php
 
+
+echo "<br>";
+$input = array("Neo", "Morpheus", "Trinity", "Cypher", "Tank");
+
+$rand_keys = array_rand($input, 2);
+
+
+
 $number = [0,10,80,67,60,89,91,56,45,30,95,83,99];
 echo min($number);
 
