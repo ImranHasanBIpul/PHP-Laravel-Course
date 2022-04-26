@@ -1,4 +1,16 @@
 <?php
+$given_arry = ['Alex', 'Bob', 'Emily', 'Ali'];
+
+$result = array_chunk($given_arry, 2, true);
+
+
+
+print_r($result);
+
+echo "<br>";
+echo "<br>";
+
+
 $name = ["imran","hasan","Bipul","Sabbir","Atik"];
 $result = (array_rand($name, 2));
 echo "<pre>";
