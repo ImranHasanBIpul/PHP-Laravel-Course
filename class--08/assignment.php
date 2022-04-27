@@ -50,6 +50,26 @@ echo Area("t", 10);
 
 echo "<br>";
 echo "<br>";
+function rectangle($length, $width){
+    $rectangle_result = $length * $width;
+    return $rectangle_result;
+}
+echo rectangle(6, 12);
+echo "<br>";
+function square($length){
+    $rectangle_square = $length * $length;
+    return $rectangle_square;
+}
+echo square(6);
+echo "<br>";
+function triangle($base, $height){
+    $rectangle_triangle = (1/2) * $base * $height;
+    return $rectangle_triangle;
+}
+echo triangle(12,6);
+
+echo "<br>";
+echo "<br>";
 
 // ============== Question 03 ===================
 
