@@ -1,4 +1,52 @@
 <?php
+
+$price = [40,22];
+$total = 0;
+foreach($price as $valu){
+    $total +=$valu;
+}
+echo $total;
+echo "<br>";echo "<br>";
+
+$name = true;
+if($name != true){
+    echo "jaw";
+
+}else{
+    echo "jaiona";
+}
+
+echo "<br>";echo "<br>";
+// $prices = 10;
+// $main_price = [20,3,45,6,6,77];
+
+// $prices += $main_price;
+// print_r($prices);
+
+$total = 100;
+$pay = 170;
+if($pay >= $total){
+    echo "thik ache";
+}else{
+    echo "thik nai";
+}
+
+echo "<br>";echo "<br>";
+
+$number = 4;
+switch($number){
+    case '3':
+    echo "light one";
+    break;
+    default:
+    echo "light off";
+    break;
+}
+
+$name = "imran";
+echo $name;
+
+echo "<br>";echo "<br>";echo "<br>";echo "<br>";
 echo "<h2> Question 01 </h2>";
 echo "ifelse Result Grading";
 echo "<br>";
