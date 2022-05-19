@@ -1,0 +1,32 @@
+.navbar-collapse {
+    flex-grow: inherit !important;
+}
+.sectionone {
+    background-color: #ededed;
+    box-shadow: 1px 0px 4px 0px #333;
+}
+
+
+.section-tow{
+    background-image: url(https://imranalibd.com/wp-content/uploads/2022/02/business-young-people-meeting-conference-discussion-corporate.jpg);
+    padding: 350px 0 ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+.banare h2{
+    color: rgb(0, 0, 0);
+}
+.img-sesec img {
+    width: 500px !important;
+}
+
+.content-sesec button {
+    background: #ff5000;
+    border: none;
+    padding: 13px 40px;
+    color: #fff;
+    font-size: 17px;
+    border-radius: 30px;
+}
