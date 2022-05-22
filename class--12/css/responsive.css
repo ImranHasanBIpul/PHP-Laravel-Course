@@ -1,0 +1,459 @@
+@media (max-width: 1300px) {
+    .mid-content{
+        max-width: 100%;
+        width: 100%;
+        padding-left: 20px;
+        padding-right: 20px;
+        box-sizing: border-box;
+        overflow: hidden;
+    }
+}
+.primary-menu span i{
+   display: none;
+}
+.check-box{
+    display: none;
+}
+@media (max-width: 1080px) {
+    
+    .primary-menu .mobile{
+        opacity: 1;
+    }
+    .mid-content{
+        overflow: hidden;
+    }
+    .video-content-right h3 {
+        font-size: 34px;
+        font-weight: 500;
+        margin-bottom: 16px;
+    }
+    .header-logo {
+        width: 100%;
+        text-align: center;
+    }
+    .logo img {
+        float: inherit;
+        margin-right: 2px;
+    }
+    .primary-menu span i{
+        font-size: 34px;
+        color: #6278df;
+        margin-top: 12px;
+        cursor: pointer;
+        display: inline-block;
+    }
+    .logo span {
+        position: relative;
+        top: -23px;
+    }
+    .primary-menu ul {
+        opacity: 0;
+        visibility: hidden;
+        height: 0;
+    }
+    .header-button {
+        width: 43%;
+        position: relative;
+        top: 12px;
+    }
+    .check-box{
+        position: relative;
+        top: -5px;
+        left: 23px;
+        cursor: pointer;
+        opacity: 0;
+        display: inline-block;
+    }
+    .primary-menu .check-box:checked ~ ul{
+        opacity: 1;
+        visibility: visible;
+        height: 100%;
+    }
+    .header-btn {
+        margin-top: -11px;
+    }
+    .primary-menu ul li {
+        display: block;
+    }
+    .header-section {
+        position: relative;
+    }
+    .banner-section {
+        margin-top: 0px;
+    }
+    span.mobile-icon {
+        margin-left: -4px;
+    }
+    .primary-menu ul li ul li {
+        display: inline-block;
+    }
+    .primary-menu ul li ul {
+        position: absolute;
+        left: 31%;
+        top: -100%;
+        width: 300px;
+        background: #ddd;
+    }
+    .primary-menu ul li a {
+        line-height: 45px;
+    }
+    .primary-menu ul li ul li a{
+        line-height: 28px;
+    }
+    .primary-menu ul li ul {
+        left: 20%;
+    }
+}
+@media (max-width: 992px) {
+    .primary-menu ul li ul {
+        left: 27%;
+    }
+    .banner-content h2 {
+        font-size: 52px;
+        margin: 18px 0;
+    }
+    .banner-content h3 {
+        margin-bottom: -12px;
+    }
+    .video-content-right h3 {
+        font-size: 30px;
+    }
+    .video-content-right p {
+        font-size: 15px;
+    }
+    .service-section {
+        padding: 40px 0;
+    }
+    .section-title h1 {
+        font-size: 50px;
+        margin-bottom: 14px;
+    }
+    .service-box {
+        width: 48%;
+        margin-right: 2%;
+    }
+    .service-box:nth-child(3n+3) {
+        margin-right: 2%;
+    }
+    .service-box:nth-child(2n+2) {
+        margin-right: 2%;
+    }
+    .service-box:nth-child(1n+1) {
+        margin-right: 2%;
+    }
+    .s-content p {
+        margin-top: -16px;
+    }
+    .pricing-table-item {
+        width: 100%;
+        margin-bottom: 25px;
+        margin-right: 0;
+        overflow: hidden;
+    }
+    .section-title h2 {
+        font-size: 48px;
+    }
+    .pricing-table-item .left{
+        float: none;
+    }
+    .member {
+        width: 48%;
+        margin-bottom: 25px;
+    }
+    .i-item {
+        width: 100%;
+        margin-bottom: 34px;
+    }
+    .t-user-img {
+        margin-top: -24px;
+    }
+    .t-content::after {
+        left: -67px;
+    }
+    .content-left-map {
+        width: 100%;
+    }
+    .content-left-map iframe {
+        height: 273px;
+    }
+    .content-right-form {
+        width: 100%;
+    }
+    .footer {
+        background: #ddd;
+    }
+    .section-title.newslatter-title h2 {
+        margin-top: 17px;
+    }
+    .submit-btn {
+        padding: 17px 85px;
+    }
+}
+@media (max-width: 700px) {
+.submit-btn {
+    margin-top: 14px;
+    padding: 20px 85px;
+}
+.default-input {
+    width: 404px;
+}
+.p-heading h1 {
+    margin: 12px 0;
+}
+.p-heading h5 {
+    margin-bottom: 4px;
+}
+.p-button {
+    margin-top: 29px;
+}
+}
+@media (max-width: 650px) {
+    .video-left {
+        width: 100%;
+    }
+    .video-content-right {
+        width: 100%;
+    }
+    .video-content-right h3 {
+        font-size: 31px;
+        margin-top: 20px;
+    }
+    .section-title h1 {
+        font-size: 40px;
+    }
+    .service-box {
+        width: 100%;
+        margin-right: 0;
+    }
+    .section-title h2 {
+        font-size: 39px;
+        margin-bottom: 10px;
+    }
+    .b-hading {
+        width: 100%;
+    }
+    .bt-content {
+        width: 100%;
+    }
+    .blog-post-item {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .content-left-map.left inframe {
+        height: 350px;
+    }
+    .content-right-form h4 {
+        margin-bottom: 4px;
+    }
+    .content-right-form p {
+        font-size: 16px;
+    }
+    .footer-contact-from .submit-btn {
+        margin-top: -11px;
+    }
+    .submit-btn {
+        padding: 15px 64px;
+    }
+}
+@media (max-width: 550px) {
+    .p-heading h5 {
+        font-size: 25px;
+        font-weight: 600;
+    }
+
+    .p-content ul li {
+        margin: 1px 0;
+        font-size: 20px;
+    }
+    .newslatter-section {
+        padding: 40px 0;
+    }
+    .section-title p {
+        font-size: 19px;
+    }
+    .section-title.newslatter-title h2 {
+        font-size: 25px;
+        margin-top: 7px;
+    }
+    .team-section .section-title  h2 {
+        font-size: 33px;
+        margin-bottom: -48px;
+    }
+    .member {
+        width: 100%;
+    }
+    .default-input {
+        width: 236px;
+    }
+    .submit-btn {
+        padding: 9px 21px;
+    }
+    .blog-title {
+        padding: 17px 0px;
+    }
+    .bt-content p {
+        font-size: 16px;
+    }
+    .blog-post-content h3 {
+        font-size: 28px;
+        margin-bottom: 8px;
+    }
+    .blog-post-content p {
+        font-size: 17px;
+        margin-top: -9px;
+    }
+    .blog-post-item img {
+        float: none;
+        width: 100%;
+        margin-right: 0;
+    }
+    .blog-post-item {
+        margin-bottom: 40px;
+    }
+    .blog-post-content {
+        padding: 15px 4px;
+    }
+    .testimonial-section {
+        padding: 40px 0;
+    }
+    .team-section {
+        padding: 40px 0;
+    }
+    .testimonial-items {
+        margin-top: 40px;
+    }
+    .primary-menu ul li ul {
+        left: 37%;
+    }
+}
+@media (max-width: 470px) {
+    .p-content ul li span {
+        font-size: 30px;
+        width: 33px;
+    }
+    .default-btn {
+        padding: 12px 7px;
+        font-size: 17px;
+}
+.banner-content h2 {
+    font-size: 38px;
+}
+.banner-content h3 {
+    font-size: 18px;
+}
+.section-title h1 {
+    font-size: 32px;
+}
+.section-title h2 {
+    font-size: 26px;
+}
+.p-content ul li {
+    font-size: 15px;
+}
+.p-content ul li span {
+    font-size: 22px;
+    width: 23px;
+}
+.member-bio {
+    padding: 11px;
+}
+.testimonial-items {
+    margin-top: 20px;
+}
+.t-content p {
+    font-size: 18px;
+    line-height: 1.5em;
+}
+.footer-contact-from textarea {
+    height: 108px;
+}
+.footer p {
+    font-size: 16px;
+}
+.b-hading h2 {
+    font-size: 34px;
+    margin-top: -5px;
+}
+.header-btn {
+    padding: 10px 12px;
+}
+.primary-menu ul li ul {
+    left: 55%;
+}
+}
+
+@media (max-width: 300px) {
+    
+    .banner-content h2 {
+        font-size: 28px;
+    }
+    .video-content-right h3 {
+        font-size: 25px;
+    }
+    .video-content-right p {
+        font-size: 13px;
+    }
+    .section-title h1 {
+        font-size: 20px;
+    }
+    .service-box {
+        margin-bottom: 17px;
+        padding: 4px;
+    }
+    .s-content p {
+        margin-top: -19px;
+    }
+    .s-content p {
+        font-size: 15px;
+        line-height: 1.6em;
+    }
+    .section-title p {
+        font-size: 16px;
+    }
+    .section-title h2 {
+        font-size: 22px;
+    }
+    .default-btn {
+        padding: 7px 2px;
+        font-size: 13px;
+    }
+    .p-heading p {
+        font-size: 14px;
+        line-height: 1.4em;
+    }
+    .p-heading h4 {
+        font-size: 17px;
+    }
+    .p-heading h1 {
+        font-size: 20px;
+    }
+    .p-heading h5 {
+        font-size: 17px;
+    }
+    .p-content ul li span {
+        font-size: 13px;
+        width: 12px;
+    }
+    .p-content ul li {
+        font-size: 12px;
+        margin-bottom: 5px;
+    }
+    .t-content {
+        padding: 26px 20px;
+    }
+    .t-content p {
+        font-size: 16px;
+    }
+    .footer-contact-from textarea {
+        height: 115px;
+    }
+    .default-input {
+        padding: 12px 15px;
+    }
+    .content-right-form p {
+        font-size: 14px;
+    }
+    .contact-section {
+        padding-top: 35px;
+    }
+}
