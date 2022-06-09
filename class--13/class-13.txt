@@ -1,1 +1,4 @@
-SQL-Query
+INSERT INTO `products_table` (`id`, `post_title`, `post_details`, `post_file`, `created_at`, `updated_at`, `deleted_at`) VALUES (NULL, ' orthonoitik songkote', 'desh akhon orthonoitik songkote porte jasse.', 'sadf', '22-2-2022', '22-2-2022', '22-2-2022'), (NULL, 'Imran', 'desh akhon orthonoitik songkote porte jasse.', 'sadfa', 'afds', 'fasddafdasdf', 'asdfa');
+
+SELECT * FROM users_table
+SELECT users_table `username`,`age`,`phone`,`address`,`created_at`,`updated_at` VALUES "username","age","phone", "address","created_at","updated_at";
