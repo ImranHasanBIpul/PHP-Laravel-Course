@@ -1,10 +1,10 @@
-table_users - 9 column
+table_users - 7 column
 --------------------------------
-Full texts   id  username  age	phone	address	salary	country	 created_at	 updated_at
+id  , username , age , phone, address, created_at, updated_at
 
-Variation Same Country Select
+data Upload
 -------------------------------
-SELECT * FROM `users_table` WHERE `country`="bangladesh";
+INSERT INTO `users_table` (`id`, `username`, `age`, `phone`, `address`, `salary`, `country`, `created_at`, `updated_at`) VALUES (NULL, 'hasan', '23', '9868234', 'jamalpur, mymensing', '40000', 'Bangladesh', '22-2-2022', '22-2-2022');
 
 
 Salary Select
