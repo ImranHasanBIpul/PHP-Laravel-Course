@@ -1,4 +1,28 @@
-INSERT INTO `products_table` (`id`, `post_title`, `post_details`, `post_file`, `created_at`, `updated_at`, `deleted_at`) VALUES (NULL, ' orthonoitik songkote', 'desh akhon orthonoitik songkote porte jasse.', 'sadf', '22-2-2022', '22-2-2022', '22-2-2022'), (NULL, 'Imran', 'desh akhon orthonoitik songkote porte jasse.', 'sadfa', 'afds', 'fasddafdasdf', 'asdfa');
+table_users - 9 column
+--------------------------------
+Full texts   id  username  age	phone	address	salary	country	 created_at	 updated_at
 
-SELECT * FROM users_table
-SELECT users_table `username`,`age`,`phone`,`address`,`created_at`,`updated_at` VALUES "username","age","phone", "address","created_at","updated_at";
+Variation Same Country Select
+-------------------------------
+SELECT * FROM `users_table` WHERE `country`="bangladesh";
+
+
+Salary Select
+-------------------------------
+SELECT MAX(salary) FROM `users_table`;
+SELECT MIN(salary) FROM `users_table`;
+
+Highst Salary, Lowest Salary
+-------------------------------
+SELECT MAX(salary), `username`, `age`,`phone`,`address`,`country`,`created_at`,`updated_at` FROM `users_table`;
+
+SELECT MIN(salary), `username`, `age`,`phone`,`address`,`country`,`created_at`,`updated_at` FROM `users_table`;
+
+
+Show how many table rows you have 
+-------------------------------
+Screenshot - link ==     https://prnt.sc/eADH8UeWuR2o
+
+Avarage Salary
+-------------------------------
+SELECT SUM(salary), AVG(salary) FROM users_table 
