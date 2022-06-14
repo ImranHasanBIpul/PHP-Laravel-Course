@@ -1,0 +1,11 @@
+SELECT user_info.id, user_info.name, user_info.email, user_info.age, user_info.create_ate, user_list.user_id, user_list.address, user_list.salary 
+FROM `user_info` INNER JOIN user_list
+ON user_info.id = user_list.user_id
+
+SELECT user_info.id, user_info.name, user_info.email, user_info.age, user_info.create_ate, user_list.user_id, user_list.address, user_list.salary 
+FROM `user_info` LEFT JOIN user_list
+ON user_info.id = user_list.user_id ORDER BY user_info.id ASC
+
+SELECT user_info.id, user_info.name, user_info.email, user_info.age, user_info.create_ate, user_list.user_id, user_list.address, user_list.salary 
+FROM `user_info` RIGHT JOIN user_list
+ON user_info.id = user_list.user_id ORDER BY user_info.id ASC
